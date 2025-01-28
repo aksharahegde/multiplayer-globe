@@ -4,9 +4,13 @@ Display website visitor locations in real-time using [Nuxt](https://nuxt.com) an
 
 [https://multiplayer-globe.nuxthub.workers.dev](https://multiplayer-globe.nuxthub.workers.dev)
 
-<a href="https://hello.nuxt.dev">
-<img src="https://github.com/nuxt-hub/hello-edge/assets/904724/99d1bd54-ef7e-4ac9-83ad-0a290f85edcf" alt="Hello World template for NuxtHub" />
+<a href="https://multiplayer-globe.nuxthub.workers.dev">
+<img src="https://github.com/user-attachments/assets/f304c7b6-4fba-43ba-ac69-397545bfb00b" alt="Multiplayer Globe App with Nuxt" />
 </a>
+
+## Credits
+
+Inspired by <a href="https://github.com/cloudflare/templates/tree/main/multiplayer-globe-template">Cloudflare's multiplayer-globe-template</a>.
 
 ## Features
 
@@ -31,7 +35,8 @@ Start the development server on `http://localhost:3000`:
 pnpm dev
 ```
 
-Note that a random location is generated in development as we don't have access to Cloudflare's geolocation data on the incoming request.
+> [!TIP]
+> A random location is generated in development as we don't have access to Cloudflare's geolocation data on the incoming request.
 
 ## Production
 
@@ -43,13 +48,6 @@ pnpm build
 
 ## Deploy
 
-Deploy the application on the Edge with [NuxtHub](https://hub.nuxt.com) on your Cloudflare account:
-
-```bash
-npx nuxthub deploy
-```
-
-Then checkout your server logs, analaytics and more in the [NuxtHub Admin](https://admin.hub.nuxt.com).
-
-You can also deploy using [Cloudflare Pages CI](https://hub.nuxt.com/docs/getting-started/deploy#cloudflare-pages-ci).
+> [!IMPORTANT]
+> We are currently working on the `nuxthub deploy` command deployment to CF Workers with Durable Objects, make sure to follow us on [X](https://x.com/nuxt_hub) or sign-up on [NuxtHub](https://admin.hub.nuxt.com) to know when the feature is out!
 
