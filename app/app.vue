@@ -60,7 +60,9 @@ p {
   line-height: 1.5;
 }
 
-.app {
-  padding: 1rem;
+@media (min-width: 768px) {
+  .app {
+    padding: 1rem;
+  }
 }
 </style>
