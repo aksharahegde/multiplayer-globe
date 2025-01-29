@@ -39,7 +39,6 @@ onMounted(() => {
         // Set the size of the marker to 0.1 if it's the user's location, otherwise 0.05
         size: myLocation.value.latitude === location.latitude && myLocation.value.longitude === location.longitude ? 0.1 : 0.05,
       }))
-      console.log(state.markers)
       // Rotate the globe
       state.phi = phi.value
       phi.value += 0.01
