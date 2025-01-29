@@ -1,3 +1,13 @@
+<script setup lang="ts">
+const url = useRequestURL()
+useSeoMeta({
+  title: 'Multiplayer Globe with Nuxt',
+  description: 'Display website visitor locations in real-time using Nuxt and NuxtHub.',
+  ogImage: `${url.origin}/og-image.png`,
+  twitterCard: 'summary_large_image',
+})
+</script>
+
 <template>
   <NuxtRouteAnnouncer />
   <NuxtLoadingIndicator />

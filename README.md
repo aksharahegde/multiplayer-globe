@@ -5,7 +5,7 @@ Display website visitor locations in real-time using [Nuxt](https://nuxt.com) an
 [https://multiplayer-globe.nuxthub.workers.dev](https://multiplayer-globe.nuxthub.workers.dev)
 
 <a href="https://multiplayer-globe.nuxthub.workers.dev">
-<img src="https://github.com/user-attachments/assets/f304c7b6-4fba-43ba-ac69-397545bfb00b" alt="Multiplayer Globe App with Nuxt" />
+<img src="./public/og-image.png" alt="Multiplayer Globe App with Nuxt" />
 </a>
 
 ## Credits
