@@ -12,11 +12,11 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "@nuxt/eslint": "^0.7.5",
+    "@nuxt/eslint": "^1.1.0",
     "@nuxt/fonts": "0.10.3",
-    "@nuxthub/core": "^0.8.15",
-    "@vueuse/core": "^12.5.0",
-    "@vueuse/nuxt": "12.5.0",
+    "@nuxthub/core": "^0.8.18",
+    "@vueuse/core": "^12.8.2",
+    "@vueuse/nuxt": "12.8.2",
     "cobe": "^0.6.3",
     "nuxt": "^3.15.4",
     "ufo": "^1.5.4",
@@ -24,11 +24,20 @@
     "vue-router": "^4.5.0"
   },
   "devDependencies": {
-    "@nuxt/eslint-config": "^0.7.5",
-    "eslint": "^9.19.0",
-    "typescript": "^5.7.3",
-    "vue-tsc": "^2.2.0",
-    "wrangler": "^3.106.0"
+    "@nuxt/eslint-config": "^1.1.0",
+    "eslint": "^9.21.0",
+    "typescript": "^5.8.2",
+    "vue-tsc": "^2.2.8",
+    "wrangler": "^3.113.0"
   },
-  "packageManager": "pnpm@9.15.4"
+  "packageManager": "pnpm@10.5.2",
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "sharp"
+    ],
+    "ignoredBuiltDependencies": [
+      "esbuild",
+      "workerd"
+    ]
+  }
 }
