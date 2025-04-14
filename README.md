@@ -60,6 +60,10 @@ pnpm build
 
 ## Deploy
 
-> [!IMPORTANT]
-> We are currently working on the `nuxthub deploy` command deployment to CF Workers with Durable Objects, make sure to follow us on [X](https://x.com/nuxt_hub) or sign-up on [NuxtHub](https://admin.hub.nuxt.com) to know when the feature is out!
+Deploy with one command on your Cloudflare account with:
 
+```bash
+npx nuxthub deploy
+```
+
+Learn more on https://hub.nuxt.com
