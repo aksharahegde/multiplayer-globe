@@ -8,6 +8,8 @@ Display website visitor locations in real-time using [Nuxt](https://nuxt.com) an
 <img src="./public/og-image.png" alt="Multiplayer Globe App with Nuxt" />
 </a>
 
+[![Deploy to NuxtHub](https://hub.nuxt.com/button.svg)](https://admin.hub.nuxt.com/new?template=multiplayer-globe)
+
 ## Credits
 
 Inspired by <a href="https://github.com/cloudflare/templates/tree/main/multiplayer-globe-template">Cloudflare's multiplayer-globe-template</a>.
