@@ -7,7 +7,7 @@ const phi = ref(0)
 const locations = ref<Array<{ latitude: number, longitude: number }>>([])
 
 // Connect to the websocket endpoint
-const { data, open } = useWebSocket(`/visitors?latitude=${myLocation.value.latitude}&longitude=${myLocation.value.longitude}`, { immediate: false })
+const { data, open } = useWebSocket(`/ws/visitors?latitude=${myLocation.value.latitude}&longitude=${myLocation.value.longitude}`, { immediate: false })
 // When the data is received, we parse it as JSON and update the locations
 watch(data, async (newData) => {
   locations.value = JSON.parse(typeof newData === 'string' ? newData : await newData.text())

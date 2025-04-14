@@ -25,9 +25,9 @@ Inspired by <a href="https://github.com/cloudflare/templates/tree/main/multiplay
 
 When the first request is made, the server store the user's location (latitude and longitude) using the [`useState`](https://nuxt.com/docs/api/composables/use-state) composable in the [`app/plugins/location.server.ts`](./app/plugins/location.server.ts) file.
 
-A `/visitors` websocket endpoint is created in the [`server/routes/visitors.ts`](./server/routes/visitors.ts) file using the [`defineWebSocketHandler`](https://nitro.build/guide/websocket) function.
+A `/ws/visitors` websocket endpoint is created in the [`server/routes/ws/visitors.ts`](./server/routes/ws/visitors.ts) file using the [`defineWebSocketHandler`](https://nitro.build/guide/websocket) function.
 
-When the [`index.vue` page](./app/pages/index.vue) is mounted on client-side, it connects to the `/visitors` websocket endpoint with its location as query parameters to the server.
+When the [`index.vue` page](./app/pages/index.vue) is mounted on client-side, it connects to the `/ws/visitors` websocket endpoint with its location as query parameters to the server.
 
 The websocket endpoints send back the user locations to the client-side.
 
