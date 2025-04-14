@@ -12,14 +12,15 @@ export default defineNuxtConfig({
 
   // https://nitro.build/config
   nitro: {
-    preset: 'cloudflare_durable',
     experimental: {
       websocket: true,
     },
   },
 
   // https://hub.nuxt.com/docs/getting-started/installation#options
-  hub: {},
+  hub: {
+    workers: true,
+  },
 
   // https://eslint.nuxt.com
   eslint: {

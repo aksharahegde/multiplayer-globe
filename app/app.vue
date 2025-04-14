@@ -1,5 +1,6 @@
 <script setup lang="ts">
 const url = useRequestURL()
+
 useSeoMeta({
   title: 'Multiplayer Globe with Nuxt',
   description: 'Display website visitor locations in real-time using Nuxt and NuxtHub.',
@@ -39,7 +40,7 @@ body {
 }
 
 .github-fork-ribbon:before {
-  background-color: #222;
+  background-color: #222 !important;
 }
 
 h1,
